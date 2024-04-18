@@ -1,0 +1,621 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f4f8;
+    background-image: url('https://www.toptal.com/designers/subtlepatterns/patterns/memphis-mini.png');
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .login-box {
+    width: 340px;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(5px);
+  }
+  
+  .login-header {
+    font-size: 2.5rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .login-input input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 6px;
+    background-color: #e8e8e8;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+  }
+  
+  .login-input input:focus {
+    background-color: #d0d9e2;
+    outline: none;
+  }
+  
+  .login-button-container {
+    text-align: center;
+  }
+  
+  .login-button-container button {
+    width: 100%;
+    padding: 15px 0;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 6px;
+    background-image: linear-gradient(45deg, #6d5dfc, #c542f5);
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .login-button-container button:disabled {
+    background-image: linear-gradient(45deg, #aaa, #ccc);
+    cursor: not-allowed;
+  }
+  
+  .login-button-container button:not(:disabled):hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+ 
+  .MuiSnackbar-root {
+    font-size: 1rem;
+    .MuiSnackbarContent-root {
+      background-color: #333;
+      color: #fff;
+      border-radius: 4px;
+    }
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .login-container {
+      align-items: flex-start;
+      padding-top: 100px;
+    }
+  }
+/*////////////////////////////register////////////////*  
+/* Registration.css */
+/* Registration.css */
+.registration-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f4f8;
+    background-image: url('https://www.toptal.com/designers/subtlepatterns/patterns/memphis-mini.png');
+    font-family: 'Roboto', sans-serif;
+}
+
+.registration-box {
+    width: 340px;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(5px);
+}
+
+.registration-header {
+    font-size: 2.5rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.registration-input input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 6px;
+    background-color: #e8e8e8;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+.registration-input input:focus {
+    background-color: #d0d9e2;
+    outline: none;
+}
+
+.registration-button-container {
+    text-align: center;
+}
+
+.registration-button-container button {
+    width: 100%;
+    padding: 15px 0;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 6px;
+    background-image: linear-gradient(45deg, #6d5dfc, #c542f5);
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.registration-button-container button:disabled {
+    background-image: linear-gradient(45deg, #aaa, #ccc);
+    cursor: not-allowed;
+}
+
+.registration-button-container button:not(:disabled):hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.MuiSnackbar-root {
+    font-size: 1rem;
+    .MuiSnackbarContent-root {
+        background-color: #333;
+        color: #fff;
+        border-radius: 4px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .registration-container {
+        align-items: flex-start;
+        padding-top: 100px;
+    }
+}
+/*///////////////////////home///////////////*
+/* Home.css */
+/* Home.css */
+.home-container {
+    background-image: url('./images/background\ homepage.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .intro-section {
+    text-align: center;
+    color: #ffffff;
+    max-width: 600px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5); 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .intro-login-button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #6d5dfc;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .intro-login-button:hover {
+    background-color: #5c4db1;
+  }
+
+
+
+  
+  
+  
+  /*////////////////////details//////////////*
+  /* TasksDetails.css */
+
+.task-details-container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .task-details-card {
+    width: 100%;
+    max-width: 800px; 
+    background: #ffffff; 
+    border-radius: 20px; 
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); 
+    padding: 2rem;
+    margin: 2rem;
+    transition: all 0.3s ease-in-out; 
+    overflow: hidden; 
+    position: relative; 
+  }
+  
+  .task-details-card:hover {
+    transform: translateY(-10px); 
+  }
+  
+  .task-details-card:before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    right: -50%;
+    bottom: -50%;
+    background: linear-gradient(135deg, rgba(126, 64, 246, 0.8), rgba(80, 139, 252, 0.8));
+    transform: rotate(-25deg);
+    transition: all 0.5s ease-in-out; 
+    z-index: 0;
+  }
+  
+  .task-details-card:hover:before {
+    top: -20%;
+    left: -20%;
+    right: -20%;
+    bottom: -20%;
+  }
+  
+  .task-details-title {
+    font-size: 2.2rem;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    position: relative; 
+    z-index: 1;
+  }
+  
+  .task-details-info {
+    color: #444;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    line-height: 1.6;
+    position: relative; 
+    z-index: 1;
+  }
+  
+  .task-details-status-done,
+  .task-details-status-pending {
+    padding: 8px 16px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+    margin: 10px 0;
+    display: inline-block; 
+    position: relative; 
+    z-index: 1;
+  }
+  
+  .task-details-status-done {
+    background-color: #28a745;
+  }
+  
+  .task-details-status-pending {
+    background-color: #dc3545;
+  }
+  
+  @media (max-width: 768px) {
+    .task-details-card {
+      margin: 1rem;
+    }
+  }
+  /*//////////////////mytask///////////*
+  /* MyTasks.css */
+/* MyTasks.css */
+.task-container {
+    padding-top: 20px;
+    background-image: url('./images/mytaskbackground.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  
+  
+  .page-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .action-buttons {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+  }
+  
+  .add-task-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+
+  .card-content {
+    padding: 20px;
+  }
+  /*//////////////edit/////////////*
+  /* EditTasks.css */
+
+  
+  .edit-tasks-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('./images/mytaskbackground.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  
+  .edit-tasks-form-wrapper {
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background: #fff;
+  }
+  
+  .edit-tasks-title {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .edit-tasks-input-field {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+  
+  .edit-tasks-submit-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  /*////////////add//////////*/
+  .add-tasks-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('./images/mytaskbackground.jpg'); 
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.add-tasks-form-wrapper {
+  max-width: 600px;
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background: #fff;
+}
+
+.add-tasks-title {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.add-tasks-input-field {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.add-tasks-submit-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/*////////////category////*/
+/* Categories.css */
+.categories-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('./images/mytaskbackground.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  
+  .category-card {
+    margin-bottom: 20px;
+  }
+  
+  .category-actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .add-category-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  
+  .link-no-decoration {
+    text-decoration: none;
+  }
+  
+  /*//////////////ADD/////////////////////*/
+  .add-category-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('./images/mytaskbackground.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  
+  
+  .add-category-form {
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background: #fff;
+  }
+  
+  .add-category-title {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .add-category-input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+  
+  .add-category-submit-button {
+    text-align: center;
+  }
+  /*////////////////EDIT///////*/
+  .edit-category-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('./images/mytaskbackground.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  
+  .edit-category-form {
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .edit-category-title {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .edit-category-input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+  
+  .edit-category-submit-button {
+    text-align: center;
+  }
+  /*////////////GRAPH/////////*/
+  .task-counts-container {
+    width: 100%;
+    height: 300px;
+    
+  }
+  
+  .task-counts-button {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .task-counts-button button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  /*///////navbar///////*/
+
+/* Navbar.css */
+.navbar-container {
+    background-color: #333; 
+    padding: 10px 0;
+    width: 100%; 
+}
+
+.navbar-container nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center; 
+}
+
+.navbar-container nav ul li {
+    display: inline-block;
+    margin-right: 20px; 
+}
+
+.navbar-container nav ul li a {
+    color: #fff; 
+    text-decoration: none;
+    display: block; 
+    padding: 10px 20px; 
+}
+
+.navbar-container nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2); 
+    border-radius: 5px; 
+}
